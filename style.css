@@ -1,0 +1,39 @@
+body {
+    font: 13px Tahoma; 
+}
+#menuContainer {
+    float: left;
+}
+#gameContainer {
+    float: left;
+    padding: 10px;
+}
+#menuContainer span {
+    display: inline-block; 
+    width: 110px;
+}
+h1 {
+    color: #3d3d3d; 
+}
+input {
+    width: 66px; 
+    margin: 1px 0 1px 0;
+}
+button {
+    width: 180px; 
+    margin: 1px 0 1px 0; 
+    text-align: left;
+    padding-left: 20px;
+    border: 1px solid #000000;
+}
+button:not([disabled]):hover {
+    padding-left: 30px;
+    background-color: #ffffff; 
+    color: #aacc00; 
+    font-weight: bolder;
+	transition: all 300ms;
+}
+canvas {
+    display: block;
+    border: 1px solid #3d3d3d; 
+}

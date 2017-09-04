@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game of Life using canvas and Javascript</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>Game of Life using canvas and Javascript</h1>
+    <div id="menuContainer">
+        <span>ROWS (min:5)</span><input id="rowsInput" type="number" value="25"><br>
+        <span>COLS (min:5)</span><input id="colsInput" type="number" value="25"><br>
+        <span>FPS (1-60)</span><input id="fpsInput" type="number" value="10"><br>
+        <span>CELLSIZE (min:5)</span><input id="cellsizeInput" type="text" value="15"><br>
+        <button id="btnDraw">CLEAR</button><br>
+        <button id="btnDrawRandom">RANDOMIZE</button><br>
+        <button id="btnStop">STOP</button><br>
+        <button id="btnStart">START</button><br>
+        <button id="btnNextRound">NEXT TURN</button><br>
+    </div>
+    <div id="gameContainer">
+        <canvas id="gameboard"></canvas>
+        <span>ROUND: </span><span id="roundCounter">1</span>
+    </div>
+<script src="class.gameoflife.js"></script>
+<script src="game-of-life.js"></script>
+</body>
+</html>
